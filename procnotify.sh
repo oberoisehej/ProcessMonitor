@@ -1,8 +1,5 @@
 #!/bin/bash
 
-#Do not insert code here
-
-#DO NOT REMOVE THE FOLLOWING TWO LINES
 git add $0 >> .local.git.out
 git commit -a -m "Lab 2 commit" >> .local.git.out
 git push >> .local.git.out || echo
